@@ -1,7 +1,6 @@
 import { useState, useRef } from 'react'
 import './style.css'
 import lovecat from '../../assets/positive energies - Forum.gif'
-import SpotifyPlayer from '../SpotifyPlayer/SpotifyPlayer'
 import one from '../../assets/08b58782c12322cf2ffa5b91472f97fd.gif'
 import one1 from '../../assets/Sad Cat Sticker - Find & Share on GIPHY.gif'
 import one2 from '../../assets/Без названия (1).gif'
@@ -117,8 +116,6 @@ function App() {
         
         <div className="celebration animate-fade-in">
           
-          
-          <SpotifyPlayer/>
           <h1 className="success-text">YAAAY! 🥰</h1>
           <div className="floating-hearts"></div>
           <img 
