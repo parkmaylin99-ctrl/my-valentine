@@ -7,7 +7,7 @@ import one2 from '../../assets/Без названия (1).gif'
 import one3 from '../../assets/Без названия (2).gif'
 import one4 from '../../assets/Без названия.gif'
 
-function App() {
+function Main() {
   const [isAccepted, setIsAccepted] = useState(false)
   const [yesScale, setYesScale] = useState(1)
   const [noScale, setNoScale] = useState(1)
@@ -130,4 +130,4 @@ function App() {
   )
 }
 
-export default App
+export default Main
