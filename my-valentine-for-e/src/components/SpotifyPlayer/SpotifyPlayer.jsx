@@ -7,7 +7,7 @@ const SpotifyPlayer = () => {
       
   className="music"
         style={{ borderRadius: '15px'}}
-        src="https://open.spotify.com/embed/track/1oAwsWBovWRIp7qLMGPIet?utm_source=generator&theme=0" // Замени на ссылку своей песни
+        src="https://open.spotify.com/embed/track/1oAwsWBovWRIp7qLMGPIet?si=e674a61a80d5452a" // Замени на ссылку своей песни
         width="100%"
         height="152"
         frameBorder="none"
