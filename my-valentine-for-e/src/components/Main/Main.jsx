@@ -6,6 +6,8 @@ import one1 from '../../assets/Sad Cat Sticker - Find & Share on GIPHY.gif'
 import one2 from '../../assets/Без названия (1).gif'
 import one3 from '../../assets/Без названия (2).gif'
 import one4 from '../../assets/Без названия.gif'
+import SpotifyPlayer from '../SpotifyPlayer/SpotifyPlayer'
+
 
 function Main() {
   const [isAccepted, setIsAccepted] = useState(false)
@@ -69,8 +71,7 @@ function Main() {
     <div className="app-container">
 
 
-
-{isAccepted && hearts.map(h => (
+{isAccepted && <SpotifyPlayer key={isAccepted}/> && hearts.map(h => (
         <span key={h.id} className="floating-heart" 
               style={{ 
                 left: h.left, 
@@ -113,8 +114,11 @@ function Main() {
           </div>
         </div>
       ) : (
-        
         <div className="celebration animate-fade-in">
+          
+  <div className="player fade-in">
+    <SpotifyPlayer/>
+  </div>
           
           <h1 className="success-text">YAAAY! 🥰</h1>
           <div className="floating-hearts"></div>

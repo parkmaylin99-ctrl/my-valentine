@@ -1,4 +1,5 @@
 import React from 'react';
+import './style.css'
 
 const SpotifyPlayer = () => {
   return (
@@ -7,13 +8,12 @@ const SpotifyPlayer = () => {
       
   className="music"
         style={{ borderRadius: '15px'}}
-        src="https://open.spotify.com/embed/track/1oAwsWBovWRIp7qLMGPIet?si=e674a61a80d5452a" // Замени на ссылку своей песни
+        src="https://open.spotify.com/embed/track/1oAwsWBovWRIp7qLMGPIet?utm_source=generator&theme=0&autoplay=1"// Замени на ссылку своей песни
         width="100%"
         height="152"
-        frameBorder="none"
-        allowFullScreen=""
+        frameBorder="0"      
+        allowFullScreen        
         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-        loading="lazy"
         title="Favorite Song"
       ></iframe>
     </div>
